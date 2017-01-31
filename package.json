@@ -8,7 +8,7 @@
     "email": "wrximpreza1987@gmail.com"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --harmony index.js"
   },
   "directories": {
     "lib": "./app/controllers"
@@ -23,7 +23,7 @@
     "memcached": "^2.2.2",
     "q": "^1.4.1"
   },
-  "scripts": {
-    "start": "node --harmony index.js"
+  "devDependencies": {
+
   }
 }
