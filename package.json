@@ -1,0 +1,29 @@
+{
+  "name": "Koajs REST API",
+  "version": "1.0.0",
+  "description": "A simple Koajs 2.0 REST API",
+  "main": "index.js",
+  "author": {
+    "name": "Ivan Djachuk",
+    "email": "wrximpreza1987@gmail.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "lib": "./app/controllers"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.24.0",
+    "koa": ">=2.0.0",
+    "koa-body": ">=2.0.0",
+    "koa-router": ">=7.x.x",
+    "memcache-promise": "0.0.1",
+    "memcached": "^2.2.2",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "start": "node --harmony index.js"
+  }
+}
